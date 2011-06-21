@@ -1,5 +1,3 @@
-#import <Foundation/Foundation.h>
-
 @interface NSArray (NSArray_Collections)
 -(NSArray *) map:(id(^)(id object))block;
 -(id) reduce:(id(^)(id value, id object))block initial:(id)initial;
